@@ -76,7 +76,7 @@ R.I.I. Oracle isn't just functional; it's a visual masterpiece.
 
 This project was imagined, designed, and developed from A to Z with passion and extreme attention to detail by:
 
-<h3>✨ <strong>Astrée The IT Overload of RNN</strong> ✨</h3>
+<h3>✨ <strong>Astrée The IT Overlord of RNN</strong> ✨</h3>
 
 <br />
 
