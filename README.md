@@ -1,71 +1,82 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00D1E0&height=200&section=header&text=R.I.I.%20Oracle&fontSize=60&fontAlignY=35&animation=twinkling&fontColor=ffffff" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=00D1E0&height=250&section=header&text=R.I.I.%20Oracle&fontSize=70&fontAlignY=35&animation=twinkling&fontColor=ffffff&desc=Advanced%20Discord%20Management%20System&descAlignY=55&descAlign=62" width="100%" />
 
-  <h1>🌌 R.I.I. Oracle</h1>
-  <p><strong>Un système complet de gestion et d'interaction pour Discord, spécialisé EVE Online.</strong></p>
+  <h3>A complete management and interaction ecosystem for Discord, specializing in EVE Online.</h3>
   
-  <p>
-    <img src="https://img.shields.io/badge/Version-1.0.0-00D1E0?style=for-the-badge&logo=discord&logoColor=white" alt="Version" />
-    <img src="https://img.shields.io/badge/Node.js-18.x-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node" />
-    <img src="https://img.shields.io/badge/Discord.js-v14-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="DiscordJS" />
+  <p align="center">
+    <a href="#"><img src="https://img.shields.io/badge/Version-1.0.0-00D1E0?style=for-the-badge&logo=discord&logoColor=white" alt="Version" /></a>
+    <a href="#"><img src="https://img.shields.io/badge/Node.js-18.x-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node" /></a>
+    <a href="#"><img src="https://img.shields.io/badge/Discord.js-v14-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="DiscordJS" /></a>
+    <a href="#"><img src="https://img.shields.io/badge/Database-SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" /></a>
+    <a href="#"><img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" /></a>
   </p>
 
   <br />
 </div>
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
 
-## 🚀 À Propos
+## 🚀 About
 
-**R.I.I. Oracle** est un bot Discord hybride de haute performance conçu pour fluidifier la gestion de communauté, offrir un support via système de tickets, et surtout, proposer une intégration poussée avec l'univers de **EVE Online**. 
+**R.I.I. Oracle** is a high-performance, hybrid Discord bot designed to streamline community management, provide a seamless ticket support system, and most importantly, deliver deep integration with the **EVE Online** universe.
 
-Alliant interface web, bases de données locales, et connectivité ESI, l'Oracle est l'outil ultime pour automatiser, suivre et encadrer votre corporation EVE ou communauté de joueurs.
+Combining a sleek web interface, local databases, and direct ESI connectivity, the Oracle is the ultimate tool for automating, tracking, and managing your EVE corporation or gaming community.
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
 
-## ✨ Fonctionnalités Principales
+## ✨ Core Features
 
-### 🌌 Intégration EVE Online (ESI & Auth)
-Connecté directement à l'API de EVE Online, l'Oracle gère les données complexes avec fluidité et précision :
-* **Authentification Sécurisée (`/auth`)** : Liez votre compte Discord à votre personnage EVE via une authentification OAuth complète.
-* **Gestion des Alts (`/alts`)** : Gardez un oeil sur vos personnages secondaires.
-* **Informations de Personnage (`/info`)** : Consultez rapidement les statistiques et infos d'un pilote.
-* **Suivi Économique et Industriel** :
-  * ⛏️ `/mining` : Suivi et rapports des opérations de minage.
-  * 🏭 `/pi` : Gestion des extractions planétaires (Planetary Interaction).
-  * 💰 `/ratting` & `/rattingpanel` : Suivi des primes et de la chasse aux pirates.
-  * 🛒 `/hypernet` & `/assets` : Consultation des relais Hypernet et vérification des actifs.
-  * 🗺️ `/sov` : Suivi de la souveraineté et des territoires.
+### 🌌 EVE Online Integration (ESI & Auth)
+Directly connected to the EVE Online API, the Oracle handles complex data with fluidity and precision:
 
-### 🎫 Système de Tickets Avancé
-Un système complet pour un support utilisateur sans faille, intégré directement dans Discord avec un relai web.
-* **Panel de Création (`/ticketpanel`)** : Déployez des panels d'assistance interactifs avec des boutons stylisés.
-* **Génération de Transcriptions** : Chaque ticket fermé génère automatiquement une transcription propre, hébergée sur *Sourceb.in*.
-* **Dashboard Web** : Interface web intuitive propulsée par *Tailwind CSS* et une base de données *SQLite* pour visualiser, gérer, et suivre en temps réel les tickets ouverts et fermés.
-* **Logs Détaillés** : Envoi automatique d'un rapport complet d'activité de ticket (ouvreur, fermeur, dates, et lien de transcription) vers un salon de logs dédié.
+| Command | Description |
+| :--- | :--- |
+| 🔐 `/auth` | **Secure Authentication:** Link your Discord account to your EVE character via a full OAuth flow. |
+| 👥 `/alts` | **Alt Management:** Keep a close eye on your secondary characters. |
+| 📊 `/info` | **Character Info:** Quickly consult a pilot's statistics and information. |
+| ⛏️ `/mining` | **Mining Tracking:** Monitor and report mining operations. |
+| 🏭 `/pi` | **Planetary Interaction:** Manage planetary extractions and setups. |
+| 💰 `/ratting` | **Bounty Tracking:** Track bounties and pirate hunting activities. |
+| 🎯 `/rattingpanel` | **Ratting Dashboard:** Deploy interactive ratting management panels. |
+| 🛒 `/hypernet` | **Hypernet Relays:** Consult Hypernet relays and market data. |
+| 📦 `/assets` | **Asset Checking:** Verify and track your in-game assets. |
+| 🗺️ `/sov` | **Sovereignty:** Track sovereignty, territories, and strategic data. |
 
-### 🛠️ Utilitaires & Communauté
-Des commandes pour rendre votre serveur plus vivant et organisé :
-* **Panneaux de Suggestions (`/suggestion`)** : Permet aux utilisateurs de proposer des idées avec un système de vote automatique.
-* **Informations de l'Oracle (`/botinfo`)** : Suivez l'état, l'uptime, et les performances du bot en temps réel.
+### 🎫 Advanced Ticket System
+A comprehensive system for flawless user support, integrated directly into Discord with a powerful web relay.
 
----
+> 🛠️ **Creation Panel (`/ticketpanel`)**: Deploy interactive support panels with styled, modern buttons.
+> 
+> 📝 **Transcript Generation**: Every closed ticket automatically generates a clean transcript, hosted securely on *Sourceb.in*.
+> 
+> 🌐 **Web Dashboard**: An intuitive web interface powered by *Tailwind CSS* and a *SQLite* database to visualize, manage, and track open/closed tickets in real-time.
+> 
+> 📋 **Detailed Logs**: Automatic dispatch of a comprehensive ticket activity report (opener, closer, dates, and transcript link) to a dedicated log channel.
 
-## 🎨 Interface et Design
-R.I.I. Oracle n'est pas juste fonctionnel, il est beau. 
-* **Embeds Stylisés** : Chaque message de l'Oracle utilise des couleurs harmonieuses (comme le cyan `0x00D1E0`) et une structure claire.
-* **Dashboard Premium** : Une interface d'administration web soignée avec *Tailwind CSS*, offrant mode sombre, esthétique "glassmorphism" et indicateurs clairs.
-* **Interactions Rapides** : Utilisation intensive de composants Discord modernes (Boutons, Menus déroulants, Modals) pour une expérience utilisateur "zéro friction".
+### 🛠️ Utility & Community
+Commands to make your server more lively and organized:
 
----
+* 💡 **Suggestion Panels (`/suggestion`)**: Allow users to propose ideas with an automated voting system.
+* 🤖 **Oracle Info (`/botinfo`)**: Track the bot's status, uptime, and real-time performance.
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
+
+## 🎨 Interface and Design
+R.I.I. Oracle isn't just functional; it's a visual masterpiece.
+
+- 💠 **Styled Embeds**: Every message from the Oracle uses harmonious colors (like cyan `#00D1E0`) and a crystal-clear structure.
+- 💎 **Premium Dashboard**: A polished web administration interface featuring *Tailwind CSS*, a sleek dark mode, "glassmorphism" aesthetics, and clear indicators.
+- ⚡ **Frictionless Interactions**: Heavy use of modern Discord components (Buttons, Select Menus, Modals) for a "zero friction" user experience.
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
 
 <div align="center">
 
-## 👑 Crédits
+## 👑 Credits
 
-Ce projet a été imaginé, designé et développé de A à Z avec passion et une attention particulière aux détails par :
+This project was imagined, designed, and developed from A to Z with passion and extreme attention to detail by:
 
-<h3>✨ <strong>Astrée</strong> ✨</h3>
+<h3>✨ <strong>Astrée The IT Overload of RNN</strong> ✨</h3>
 
 <br />
 
